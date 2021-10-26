@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-19T09:34:54.029Z</updated>
+  <updated>2021-10-26T14:27:22.403Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NSSCTF--新手赛 DO_U_K_HTTP</title>
+    <link href="http://example.com/2021/10/26/NSSCTF-%E6%96%B0%E6%89%8B%E8%B5%9B-DO-U-K-HTTP/"/>
+    <id>http://example.com/2021/10/26/NSSCTF-%E6%96%B0%E6%89%8B%E8%B5%9B-DO-U-K-HTTP/</id>
+    <published>2021-10-26T14:25:07.000Z</published>
+    <updated>2021-10-26T14:27:22.403Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="C:\Users\25054\AppData\Roaming\Typora\typora-user-images\image-20211026222554055.png" alt="image-20211026222554055"></p><p>这里需要更换浏览器进行浏览，因此需要更改useragent</p><p><img src="C:\Users\25054\AppData\Roaming\Typora\typora-user-images\image-20211026222619688.png" alt="image-20211026222619688"></p><p>将useragent修改为对应的浏览器</p><p><img src="C:\Users\25054\AppData\Roaming\Typora\typora-user-images\image-20211026222641261.png" alt="image-20211026222641261"></p><p>更改以后再次刷新，可以浏览该网页了</p><p>显示仅能本地浏览</p><p>使用hackbar添加头</p><p><img src="C:\Users\25054\AppData\Roaming\Typora\typora-user-images\image-20211026222705439.png" alt="image-20211026222705439"></p><p>获得flag</p><p>X-Forwarded-For： 后面一定要加空格</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;C:\Users\25054\AppData\Roaming\Typora\typora-user-images\image-20211026222554055.png&quot; alt=&quot;image-20211026222554055&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这里需</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>“第一篇博客”</title>
